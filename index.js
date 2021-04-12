@@ -47,6 +47,9 @@ const StochRSI = require('./lib/stochastic_rsi')
 const TRIX = require('./lib/trix')
 const EMAVolume = require('./lib/ema_vol')
 const NATR = require('./lib/normalised_atr')
+const WAE = require('./lib/waddah_attar_explosion')
+const Damiani = require('./lib/damiani_volatmeter')
+const Vertex = require('./lib/vertex_mod')
 
 module.exports = {
   Indicator,
@@ -95,5 +98,8 @@ module.exports = {
   DC,
   StochRSI,
   TRIX,
-  EMAVolume
+  EMAVolume,
+  WAE,
+  Damiani,
+  Vertex
 }
